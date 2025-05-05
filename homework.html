@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+          var fruits = ["1","2","3","4","5","6","7"]
+          var text = "";
+          var i;
+          for (i = 0; i < fruits.length; i++) {
+            text += fruits[i] + "<br>";
+          }
+          document.getElementById("demo").innerHTML = text;
+          var str = "Numbers from 1-7";
+         document.write(str.toUpperCase());
+         document.write("<br>");
+         document.write(str.toLowerCase())
+         document.write("<br>");
+
+         var str1 = "I learned Methods";
+         var patt = new RegExp("about");
+         var res = patt.test(str);
+         document.write(res);
+        </script>
+    </body>
+</html>
